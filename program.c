@@ -1,13 +1,12 @@
 #include <stdio.h>
 #include <unistd.h>
 
-int main() {
+void main() {
     int i;
     
     for(i = 1; i <= 120; i++) {
         printf("I LOVE YOU N3\n");
-        usleep(300000); // 300 milliseconds
+        usleep(300000); 
     }
 
-    return 0;
 }
